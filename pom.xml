@@ -9,10 +9,10 @@
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-compiler-plugin</artifactId>
-  			<version>2.3.2</version>
+  			<version>any</version>
   			<configuration>
-  				<source>1.6</source>
-  				<target>1.6</target>
+  				<source>any</source>
+  				<target>any</target>
   				<encoding>UTF-8</encoding>
   			</configuration>
   		</plugin>
@@ -22,7 +22,7 @@
   	<dependency>
   		<groupId>mysql</groupId>
   		<artifactId>mysql-connector-java</artifactId>
-  		<version>5.1.18</version>
+  		<version>any</version>
   	</dependency>
   </dependencies>
   <properties>
