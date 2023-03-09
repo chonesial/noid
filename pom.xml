@@ -9,10 +9,10 @@
   		<plugin>
   			<groupId>org.apache.maven.plugins</groupId>
   			<artifactId>maven-compiler-plugin</artifactId>
-  			<version>any</version>
+  			<version>7</version>
   			<configuration>
-  				<source>any</source>
-  				<target>any</target>
+  				<source>7</source>
+  				<target>7</target>
   				<encoding>UTF-8</encoding>
   			</configuration>
   		</plugin>
